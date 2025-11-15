@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sticker Shop</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f7f7f7;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: #222;
+            color: white;
+        }
+
+        h1 { margin-bottom: 10px; }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            padding: 40px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .product {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+
+        .product h3 {
+            margin: 15px 0 5px;
+        }
+
+        .price {
+            font-size: 18px;
+            margin-bottom: 15px;
+            color: #444;
+        }
+
+        .btn {
+            background: #ff4b6e;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #e33c5d;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Sticker Shop</h1>
+    <p>Funny vinyl stickers — waterproof & long-lasting 🚜✨</p>
+</header>
+
+<section class="products">
+
+    <!-- Sticker #1 -->
+    <div class="product">
+        <img src="I Got Crop Dusted.png" alt="I Got Crop Dusted Sticker">
+        <h3>I Got Crop Dusted</h3>
+        <p class="price">$3.00</p>
+        <a class="btn" href="https://buy.stripe.com/test_aFabJ169bgNibMZgDw9sk01" target="_blank">
+            Buy Now
+        </a>
+    </div>
+
+    <!-- Sticker #2 -->
+    <div class="product">
+        <img src="Southern By Birth.png" alt="Southern By Birth Sticker">
+        <h3>Southern By Birth</h3>
+        <p class="price">$3.00</p>
+        <a class="btn" href="https://buy.stripe.com/test_cNi28r8hj68E5oB1IC9sk00" target="_blank">
+            Buy Now
+        </a>
+    </div>
+
+</section>
+
+</body>
+</html>
